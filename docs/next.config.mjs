@@ -22,6 +22,26 @@ const config = {
         permanent: false,
       },
       {
+        source: "/docs/add-ons",
+        destination: "/projects",
+        permanent: false,
+      },
+      {
+        source: "/add-ons",
+        destination: "/projects",
+        permanent: false,
+      },
+      {
+        source: "/ecosystem",
+        destination: "/projects",
+        permanent: false,
+      },
+      {
+        source: "/registry",
+        destination: "/projects",
+        permanent: false,
+      },
+      {
         source: "/blog/should-chat-be-the-new-homepage-for-saas",
         destination: "/blog/beyond-the-chatbar",
         permanent: true,
